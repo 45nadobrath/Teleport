@@ -1,7 +1,7 @@
 local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/45nadobrath/Database/main/Database.lua", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
- wait(0.5)
+ wait(2.5)
 local PlaceID = game.PlaceId
           local AllIDs = {}
           local foundAnything = ""
